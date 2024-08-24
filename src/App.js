@@ -153,7 +153,7 @@ function App() {
     <div className="bgcont">
       <div className="card">
         <div className="card-body">
-          <h1 className="card-title">Todo Application</h1>
+          <h1 className="card-title">Task Manager Application</h1>
 
           {editedIndex === null ? (
             <form onSubmit={submitHandler}>
