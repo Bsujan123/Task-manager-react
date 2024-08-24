@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+input[type="submit"] {
+  background-color: lightsteelblue;
+  padding: 4px 18px 4px 18px;
+  margin-left: 20px;
+  border-radius: 7px;
+}
+.card {
+  margin: 1% 25% 1% 25%;
+}
+.inputField {
+  padding: 7px 10px 7px 10px;
+  border-radius: 8px;
+  width: 70%;
+}
+button {
+  background-color: darksalmon;
+  border-radius: 8px;
+  padding: 3px 12px 3px 12px;
+  margin-left: 5px;
+  text-align: right;
+}
+
+.itemCont {
+  background-color: bisque;
+  /* background-color: rgb(197, 248, 226); */
+  padding: 1% 3% 1% 3%;
+  border-radius: 11px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  word-break: break-word;
+}
+
+.card1 {
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.S4dfn_Nwr4XOz_4qrZccfgHaE8&pid=Api&P=0&h=220");
+  height: 100vh;
+  background-size: cover;
+}
+.bgcont {
+  /* background-image: url("https://clipground.com/images/background-png-transparent-9.png"); */
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.nWiYJ0_SXS0T3sNhlKWv-QHaFL&pid=Api&P=0&h=220");
+  /* background-image: url("https://tse1.mm.bing.net/th?id=OIP.H7HEE2uBUeyiJXegGZ-pfgHaEK&pid=Api&P=0&h=220"); */
+  /* background-image: url("https://cdn.pixabay.com/photo/2017/06/19/20/16/background-2420782_1280.png"); */
+  background-size: cover;
+  height: 100vh;
+}
